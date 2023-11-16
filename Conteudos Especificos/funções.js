@@ -10,13 +10,13 @@ let corDoSite = "Azul";
 
 function resetaACorDoSite(corEscolhida){
     corDoSite = corEscolhida
-    console.log("A nova cor escolhida foi: " + corDoSite)
+    console.log("A nova cor escolhida foi: " + corDoSite);
 }
 
 // Funcs de Realizar tarefas
 
 function DizerMeuNome(){
-    console.log("Seu nome é: Udson!")
+    console.log("Seu nome é: Udson!");
 }
 
 // Funcs de Retorno de dados.
