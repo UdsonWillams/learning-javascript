@@ -1,3 +1,8 @@
+import { retornaOMaiorDosValores } from "./Projeto_02/mini_project_02.js";
+import { FizzBuzz } from "./Projeto_03/mini_project_03.js";
+import { verificarVelocidade } from "./Projeto_04/mini_project_04.js";
+import { parOuImpar } from "./Projeto_05/mini_project_05.js";
+
 // VARIAVEIS.
 
 let idade = 5;
@@ -49,15 +54,15 @@ let array_com_varios_valores = [
     true, "teste", "estou no array", 45, 17.5
 ];
 
-console.log("tamanho do array: " + array_com_varios_valores.length)
-console.log("3° Elemento do array: " + array_com_varios_valores[2])
+console.log("tamanho do array: " + array_com_varios_valores.length);
+console.log("3° Elemento do array: " + array_com_varios_valores[2]);
 
 // FUNÇÕES.
-corDoSite = "azule"
+let corDoSite = "azule";
 function resetaACorDoSite(corEscolhida){
-    console.log("Cor do site antiga: " + corDoSite)
-    corDoSite = corEscolhida
-    console.log("A nova cor escolhida foi: " + corDoSite)
+    console.log("Cor do site antiga: " + corDoSite);
+    corDoSite = corEscolhida;
+    console.log("A nova cor escolhida foi: " + corDoSite);
 }
 // Bom notar que a func altera o dado de uma variavel fora
 // Do escopo da func. bom tomar cuidado com o nome das
@@ -107,3 +112,16 @@ switch (nvlPermissao) {
         console.log(`usuario: ${nvlPermissao}| nivel: ${nvlPermissao}`);
         break;
 }
+
+// Projeto 2 
+console.log("retorno da função: ", retornaOMaiorDosValores(10, 20));
+// Projeto 3
+console.log("retorno da função: ", FizzBuzz("OLOWWW"));
+console.log("retorno da função: ", FizzBuzz(9));
+console.log("retorno da função: ", FizzBuzz(25));
+console.log("retorno da função: ", FizzBuzz(15));
+console.log("retorno da função: ", FizzBuzz(11));
+// Projeto 4
+console.log(verificarVelocidade(140))
+// Projeto 5
+parOuImpar(5)
