@@ -1,7 +1,7 @@
-import { retornaOMaiorDosValores } from "./Projeto_02/mini_project_02.js";
-import { FizzBuzz } from "./Projeto_03/mini_project_03.js";
-import { verificarVelocidade } from "./Projeto_04/mini_project_04.js";
-import { parOuImpar } from "./Projeto_05/mini_project_05.js";
+import { retornaOMaiorDosValores } from "./projeto_02/mini_project_02.js";
+import { FizzBuzz } from "./projeto_03/mini_project_03.js";
+import { verificarVelocidade } from "./projeto_04/mini_project_04.js";
+import { parOuImpar } from "./projeto_05/mini_project_05.js";
 
 // VARIAVEIS.
 
