@@ -1,2 +1,1 @@
-### Anotações sobre JavaScript
-#### Anotações e codigo em javaScript vistos acompanhando o "curso" de java script do canal dev-aprender.
+### Repositorio aonde guardo meus estudos sobre a linguagem JavaScript
