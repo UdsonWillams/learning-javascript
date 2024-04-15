@@ -8,4 +8,6 @@ const connection = mysql.createConnection({
     database: "db_node_js_initial"
 })
 
+connection.connect()
+
 export default connection
