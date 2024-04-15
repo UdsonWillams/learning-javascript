@@ -38,3 +38,6 @@ id no corpo da url.:
 app.get("/selecoes/:id", (req, resp) => {
     //
 })
+
+// splice apaga o valor do index e mais quantos 
+// valores nos queremos apagar a partir daquele index.
