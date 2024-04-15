@@ -1,0 +1,29 @@
+node = o framework js
+npm = node package manager, acredito que 
+seja algo igual ao pip do python.
+
+npm init -y = vai gerar o arquivo package.json
+e iniciar o projeto.
+
+npm install express --save
+Vai instalar o express, biblioteca extra para criação de apis
+Ele permite que a gente suba um servidor WEB no projeto.
+
+rodamos o app com o comando
+node app.js
+no caso vai ser node src/app.js 
+já que o projeto está em outra pasta.
+
+Vamos instalar o nodemon para pordermos rodar o sistema
+com alterações sendo pegas em tempo de execução, para não
+precisar ficar matando e subindo o servidor sempre que mudarmos algo.
+npm install nodemon -D = -D == flag para desenvolvimento local
+
+vamos no arquivo package.json
+e no local dos scripts adicionamos um script a mais com o nome de DEV.
+"scripts": {
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+rodamos esse script com o valor: npm run dev
+que foi o nome que passamos no package.json
