@@ -1,0 +1,11 @@
+A melhor forma de fazer importações hoje é com o comando
+import express from 'express'
+ou seja, import o express do pacote 'express'
+
+Diferente da forma que utilizamos antes com o:
+express = require('express')
+
+No node para podermos usar as importações, precisamos
+setar um valor type no package.json com o valor "module"
+Isso diz ao Node que vamos trabalhar com importações no projeto.
+"type": "module",
