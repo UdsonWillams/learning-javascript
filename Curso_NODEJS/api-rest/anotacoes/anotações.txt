@@ -27,3 +27,14 @@ e no local dos scripts adicionamos um script a mais com o nome de DEV.
   }
 rodamos esse script com o valor: npm run dev
 que foi o nome que passamos no package.json
+
+
+precisamos indicar para o express ler o body passado com json
+A partir disso criei a expressão abaixo:
+app.use(express.json())
+
+Exemplo de um endpoint que recebe um parametro
+id no corpo da url.:
+app.get("/selecoes/:id", (req, resp) => {
+    //
+})
