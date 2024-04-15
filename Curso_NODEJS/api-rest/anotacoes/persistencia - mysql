@@ -1,0 +1,10 @@
+pra baixar a lib do mysql é bem simples:
+npm install mysql
+
+assim o node já vai poder usar os pacotes do mysql.
+
+Esse site ajudou a instalar o mysql.
+https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-22-04
+
+E aqui baixei o valor original do workbench:
+https://dev.mysql.com/downloads/workbench/
