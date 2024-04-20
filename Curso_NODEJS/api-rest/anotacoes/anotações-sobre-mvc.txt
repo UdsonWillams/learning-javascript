@@ -1,0 +1,15 @@
+Iniciamos o projeto de uma forma, mas vamos 
+utilizar o padrão estrutural MVC: model, view, controler
+para um melhor formato do nosso projeto.
+
+Vamos separar os arquivos por responsabilidade.
+Nossas regras de negocio vão ficar na pasta controler
+
+E as regras de repositorio (persistencia de dados) vão
+ficar no repository. Repository é um padrão também.
+
+Com isso criamos os seguintes pacotes dentro de src/app
+
+- controlers
+- database
+- repositors

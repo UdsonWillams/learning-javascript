@@ -1,0 +1,21 @@
+Controlers 
+- Criamos o arquivo CountriesControler.js
+A convenção usada aqui é usar o nome do recurso 
+que vamos manipular aqui, + o prefixo controler, 
+logo: CountriesControler
+
+Vamos criar um objeto com o mesmo nome
+CountriesController {}
+Esse objeto vai ter funções expecificas para cada 
+ação que queremos fazer. criar, deletar, atualizar, etc. 
+Eles devem ser independentes do banco de dados. 
+
+Esses metodos tem um padrão de nome especifico.
+
+index() = mostra tudo
+show() = mostra um recurso especifico
+store() = salva o recurso 
+update() = atualiza um recurso
+delete() = deleta um recurso
+E neles vão nossas regras de negocio que são necessarias
+para manipulação dos dados/recursos. 
