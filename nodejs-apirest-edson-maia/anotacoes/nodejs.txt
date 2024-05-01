@@ -1,0 +1,12 @@
+Node js é uma forma do java script rodar como
+uma lingua de backend, digamos assim.
+
+Podemos trabalhar como em python, sem precisar do 
+browser para nossos scripts.
+
+Como em python, ele precisa de um framework, no caso o express 
+Web para o desenvolvimento web, criação de rotas, metodos http, views, etc.
+
+express, next, nest, fastfy, etc são frameworks backend
+
+react, angular, vue, etc são frameworks frontend

@@ -1,0 +1,20 @@
+As Promisses precisam ter dois parametros.
+
+O param resolve e o param reject e geralmente usamos arrow_functions
+para fazer o processamento da promisse.
+
+Dentro da promisse que fizemos nosso chamada ao banco de dados
+nos repositorys.
+
+Trabalhando com as promisses, trabalhamos com metodos assincronos.
+
+No caso precisamos anotar a função do controller que chama o repository com
+async e 
+por um await na chamada da função expecifica que querremos.
+
+Ex.:
+// mostra tudo
+async index(req, resp) {
+    const response = await CountriesRepository.findAll()
+    resp.json(response)
+} 

@@ -9,3 +9,6 @@ No node para podermos usar as importações, precisamos
 setar um valor type no package.json com o valor "module"
 Isso diz ao Node que vamos trabalhar com importações no projeto.
 "type": "module",
+
+link falando mais sobre imports
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import

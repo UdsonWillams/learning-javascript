@@ -1,0 +1,13 @@
+Criamo a pasta repositors e criamos um objeto chamado CountryRepository
+
+O padrão repository é usado para tirarmos a conexão com o banco de dados
+das regras de negocio da aplicação. 
+
+Ou seja, a conexão, query, etc vão pra esse padrão, os responses, dados de resposta
+tratados vão no  controler.
+
+Trabalharemos com promisses no repository nesse projeto, para tratar os dados
+e retornar valores que sejam compreendidos pelo express.
+
+Dentro da promisse que fizemos nosso chamada ao banco de dados
+nos repositorys.

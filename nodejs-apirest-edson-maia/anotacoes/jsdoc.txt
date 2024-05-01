@@ -1,0 +1,10 @@
+Similar aos docstrings do python.
+
+No vscode passamos /** e enter
+Já é criado uma doczinha utilizavel para explicarmos
+oque cada parametro está sendo usado, o retorno da função e etc.
+bem interessante para documentação de codigo.
+
+links falando mais sobre jsdoc
+https://jsdoc.app/
+https://jsdoc.app/tags-param
