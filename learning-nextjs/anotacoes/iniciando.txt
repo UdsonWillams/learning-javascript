@@ -1,0 +1,24 @@
+// Usando esse comando eu inicei o projeto do next js
+npx create-next-app@latest
+
+// Ele pergunta algumas coisas, como se vai usar ts, 
+se vai usar eslint, se vai usar o padrão de pastas src, etc.
+
+Depois indo no local do nosso app, chamei o comando :
+npm run dev
+Isso ja iniciou o projeto localmente, e já conseguimos
+retorno de uma pagina default do next
+
+//
+Excluimos os valores do arquivo globals.css deixando apenas
+as importações, e no arquivo src/app/page.tsx excluimos o retorno
+default da função Home e colocamos apenas um div com o valor hello world dentro(my fault hehe)
+
+//
+Fomos na pasta src e criamos a pasta components
+e nela criamos o arquivo Navbar.tsx para tratar a barra de navegação.
+Nela fazermos algumas configurações e criamos uma função NavBar 
+Essa função passaremos a chamar na page.tsx 
+
+// Também baixamos alguns icons com o comando:
+// npm install react-icons --save
